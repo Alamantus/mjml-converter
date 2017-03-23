@@ -1,0 +1,20 @@
+{
+  "name": "mjml-converter",
+  "description": "A simple Electron desktop app for converting MJML files into HTML.",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/electron .",
+    "test-cmd": ".\\node_modules\\.bin\\electron .",
+    "build": "./node_modules/.bin/electron-packager . --arch=ia32",
+    "rebuild": "./node_modules/.bin/electron-packager . --arch=ia32 --overwrite"
+  },
+  "dependencies": {
+    "electron": "^1.6.2",
+    "mjml": "^3.3.0",
+    "strip-bom": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.6.0"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MJML Converter</title>
+  </head>
+  <body>
+    <p style="text-align: center;">
+      <label><strong>Load your MJML File</strong><br>
+        <input type="file" accept=".mjml" name="mjmlFile" id="mjmlInput" style="border: 1px solid lightgray" />
+      </label>
+    </p>
+
+    <p style="text-align: center;">
+      <button id="convertButton" onclick="processFile()">
+        Convert to HTML &amp; Save
+      </button>
+    </p>
+
+    <script src="convert.js"></script>
+  </body>
+</html>

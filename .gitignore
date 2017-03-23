@@ -1,0 +1,4 @@
+node_modules/
+mjml-converter-win32-ia32/
+
+*.zip
